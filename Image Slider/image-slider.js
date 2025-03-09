@@ -22,7 +22,7 @@ nextButton.addEventListener('click', () => {
 });
 
 prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + images.length) % images.length; 
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
     updateImage();
 });
 
