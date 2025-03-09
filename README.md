@@ -1,5 +1,4 @@
 # Coding-Assignment
-Coding Assignment – Associate Software Engineer
 
 Assignment 
  1.	Create a Simple Profile Card
