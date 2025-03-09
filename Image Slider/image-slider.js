@@ -17,12 +17,12 @@ function updateImage() {
 }
 
 nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+    currentIndex = (currentIndex + 1) % images.length;
     updateImage();
 });
 
 prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + images.length) % images.length; // Loop back to the last image
+    currentIndex = (currentIndex - 1 + images.length) % images.length; 
     updateImage();
 });
 
