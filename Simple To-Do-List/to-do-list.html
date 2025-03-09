@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #task-input {
+            padding: 8px;
+            width: 200px;
+        }
+        #add-task-btn {
+            padding: 8px 12px;
+            background-color: #1cea4c;
+            color: rgb(255, 255, 255);
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        #add-task-btn:hover {
+            background-color: #218838;
+        }
+        #task-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .task-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            border: 1px solid #ddd;
+            margin-top: 5px;
+            
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .remove-task-btn {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .remove-task-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <input type="text" id="task-input" placeholder="Enter a new task">
+    <button id="add-task-btn">Add Task</button>
+    <ul id="task-list"></ul>
+
+    <script src="to-do-list.js"></script>
+</body>
+</html>
